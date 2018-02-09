@@ -1,0 +1,24 @@
+echo "enter a number mother fucker "
+read val
+echo ""
+
+if ((val))
+then
+
+for ((i=1; i<=$val; i++)) {
+    if (((i%3)==0 && (i%5)==0))
+    then
+    echo "ShitDick"
+    elif (((i%3)==0))
+    then
+    echo "Shit"
+    elif (((i%5)==0))
+    then
+    echo "Dick"
+    else
+    echo $i
+    fi
+}
+else
+echo "What the fuck number did you just enter"
+fi
